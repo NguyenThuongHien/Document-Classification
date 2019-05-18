@@ -1,0 +1,3 @@
+Trong kỳ Toán tương tác lần này, "cô gái vàng" Nguyễn Nga Nhi đưa ra đề bài như sau:
+Trên giao diện, các khối lập phương đơn vị lập thành một khối lập phương lớn kích cỡ là 5x5x5. Tiếp đó, ta khoét 3 đường xuyên táo được biểu diễn bằng các khối lập phương màu xanh lá cây, 3 đường xuyên táo biểu diễn bằng các khối lập phương màu vàng và 3 đường xuyên táo biểu diễn bằng các khối lập phương màu đỏ. Nói cách khác, các khối lập phương đơn vị màu xanh lá cây, màu vàng và màu đỏ thực chất là khoảng trống.
+Xin mời quý độc giả đưa ra lời giải vào ô bình luận phía dưới. Đáp án sẽ được đăng tải vào thứ Ba (18/12) tới đây.

@@ -1,0 +1,9 @@
+Trong kỳ Toán tương tác lần này, lấy cảm hứng từ chức Vô địch AFF của ĐT Việt Nam, "cô gái vàng" Nguyễn Nga Nhi đưa ra đề bài như sau:
+Bốn cấu thủ Việt Nam trong đội hình tiêu biểu của AFF Cup 2018 bao gồm thủ môn Đặng Văn Lâm, hậu vệ Trần Đình Trọng, hậu vệ Đoàn Văn Hậu và tiền vệ Nguyễn Quang Hải.
+Giả sử khuôn mặt của 4 cầu thủ xuất sắc trên đại diện cho 4 chữ số khác nhau và khác 0 trên giao diện. Vậy để phép nhân mà ta nhìn thấy là đúng thì từng cầu thủ sẽ tương ứng với chữ số nào?
+Hướng dẫn sử dụng giao diện: Nhấp chuột trái vào từng vị trí của các chữ số sẽ làm xuất hiện một bảng nhỏ gồm 9 chữ số từ 1 đến 9 để ta lựa chọn.
+Nếu muốn khôi phục lại khuôn mặt ban đầu khi ta chưa lựa chọn, quý vị chỉ cần nhấp chuột vào từng vị trí khi giữ thêm phím Ctrl.
+Nếu nhấp chuột vào hình ảnh đại diện của cầu thủ khi giữ thêm phím Shift, quý vị sẽ có thông tin vắn tắt về cầu thủ đó.
+Để khôi phục lại toàn bộ giao diện về trạng thái khởi đầu, quý vị chỉ cần nhấp đúp chuột vào khoảng trống trên giao diện.
+Xin mời độc giả đưa ra lời giải vào ô bình luận phía dưới. Đáp án sẽ được đăng tải vào thứ Ba (25/12) tới đây.
+Vũ Phong

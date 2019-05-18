@@ -1,0 +1,6 @@
+Độc giả nào từng trải nghiệm trò chơi điện tử xếp hình Tetris chắc chắn đã quen thuộc với mảnh ghép hình chữ T như giao diện phía dưới. Giao diện còn bao gồm một hình chữ nhật 3x4 ô vuông với duy nhất 2 ô vuông màu xanh.
+Câu hỏi của kỳ Toán tương tác lần này mà Nguyễn Nga Nhi đưa ra như sau:
+Chúng ta có bao nhiêu cách để cắt ra một hình giống hình chữ T màu đỏ (có thể tự do xoay các hướng) từ hình chữ nhật 3x4 đã cho để sao cho trong hình chữ T cắt ra có đúng một ô màu xanh và còn lại 3 ô đều màu vàng.
+Hướng dẫn sử dụng giao diện: Độc giả có thể kéo thả hình chữ T màu đỏ để xác định các phương thức cắt chữ T khác nhau.
+Nhấp đúp chuột vào hình chữ T màu đỏ sẽ làm hình này quay 90° theo chiều kìm đồng hồ. Nếu nhấp đúp chuột trong khi giữ phím Shift sẽ tạo vòng quay 90° ngược chiều kim đồng hồ.
+Độc giả có thể đưa ra câu trả lời vào ô bình luận phía dưới. Đáp án sẽ được đăng tải vào thứ Ba (18/9) tới đây.

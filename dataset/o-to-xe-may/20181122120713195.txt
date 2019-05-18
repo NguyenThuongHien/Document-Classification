@@ -1,0 +1,4 @@
+Dyno, hay Dynometer, là thử nghiệm nhằm đo sức mạnh động cơ (công suất và mô-men xoắn), lượng khí thải, tốc độ, lực kéo... Trong bài thử nghiệm này, những chiếc xe vận hành hết công suất ở các cấp số khác nhau và các bánh xe truyền lực kéo xuống bàn nâng.
+Bài thử nghiệm này đặc biệt cần thiết khi chủ xe muốn tiến hành nâng cấp, vì nó cho biết sự thay đổi sẽ khiến động cơ tăng giảm công suất ra sao, tỉ lệ xăng gió nạp như thế nào, để từ đó, kỹ thuật viên sẽ tiến hành lập trình lại ECU cho xe nhằm tạo sự vận hành ổn định nhất có thể.
+Xe bán tải của Ford phát nổ khi đang thử nghiệm dyno
+Vụ nổ xảy ra trong một buổi thử nghiệm dyno hồi tháng trước ở Fredericksburg, tiểu bang Ohio, Mỹ, với một chiếc xe bán tải Ford đã được nâng cấp. Người đăng video cho biết động cơ đã vận hành qua 463.491 km và lẽ ra không nên bị đẩy công suất lên 1.220 mã lực và mô-men xoắn lên 2.200 lb-ft (2.982 Nm).
