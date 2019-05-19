@@ -1,5 +1,0 @@
-Câu hỏi của kỳ Toán tương tác mà Nguyễn Nga Nhi đã đưa ra như sau:
-Chúng ta có bao nhiêu cách để cắt ra một hình giống hình chữ T màu đỏ (có thể tự do xoay các hướng) từ hình chữ nhật 3x4 đã cho để sao cho trong hình chữ T cắt ra có đúng một ô màu xanh và còn lại 3 ô đều màu vàng.
-Và dưới đây là đáp án:
-Toán tương tác: Đáp án "bài cắt hình chữ T khiến bạn suy nghĩ"
-Xin chúc mừng các độc giả đã có câu trả lời đúng. Đề toán tương tác sẽ tiếp tục được đăng tải vào thứ Sáu (21/9) tới đây, mời quý vị chú ý theo dõi và cùng tìm lời giải.
