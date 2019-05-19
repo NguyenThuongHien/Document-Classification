@@ -12,16 +12,23 @@ def get_max_lenght_sentenses(path):
     with open(path,'r') as f:
         return int(f.read())
 
+def convert_out_to_class(out):
+    '''s
+        out is a pytorch tensor
+    '''
+    out = out.detach()[0].tolist()
+    out_max = max(out)
+    return out.index(out_max)
 
 if __name__ == '__main__':
     path_max_lenght = 'max_lenght_of_sentenses.txt'
     input_size = 100
-    hidden_size = 20
+    hidden_size = 40
     sequence_lenght = get_max_lenght_sentenses(path_max_lenght)
     batch_size = 1
-    num_layer = 20
-    num_class = 2
-    epochs = 10
+    num_layer = 30
+    num_class = 5
+    epochs = 30
     
 
     model = Model(input_size = input_size, hidden_size = hidden_size, num_layer = num_layer,num_class=num_class)
@@ -40,5 +47,11 @@ if __name__ == '__main__':
             l.backward(retain_graph=True)
             opt.step()
         print('epoch {} - loss {}'.format(e,l))
+    
+    filepath = 'pretrained'
+
+    torch.save(model.state_dict(),filepath)
+
+
     
     

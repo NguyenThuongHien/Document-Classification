@@ -1,0 +1,26 @@
+Đối với các thiết bị có thể gắn kết nối qua USB, cách thực hiện như sau:
+Đối với các thiết bị có thể gắn kết nối qua AUX, cách thực hiện như sau:
+Lưu ý, các định dạng sau được hỗ trợ để có thể nghe trên Ford Fiesta mới và Focus: MP3, wav, wma, aac.
+Các câu lệnh có trong SYNC trên Focus và Fiesta mới:
+BLUETOOTH AUDIO
+Nhạc trực tuyến lưu trữ trong máy điện thoại được kết nối
+CALL
+Gọi cho ai đó trong danh bạ điện thoại đã tải về của bạn.
+HELP
+Nghe những câu lệnh mà bạn có thể sử dụng trong tình huống hiện tại
+LINE IN/AUDIO IN
+Nói câu lệnh này một lần khi bạn lựa chọn thiết bị cắm vào dây cáp nguồn ngoại vi. Nói lại để bắt đầu bật nhạc trong thiết bị đó.
+PHONE
+Cho phép bạn truy cập vào phần cài đặt điện thoại và sử dụng điện thoại đã được kết nối.
+PLAY
+Bật nhạc lưu trữ trong điện thoại ghép cặp
+PLAY ALL
+Bật tất cả bản nhạc theo thứ tự
+READ MESSAGE
+Nghe tin nhắn văn bản gửi đến gần đây nhất
+SEND TEXT MESSAGE
+Gửi một tin nhắn văn bản
+SYNC
+Dẫn tới menu chính
+USB
+Sử dụng USB đã được kết nối

@@ -4,16 +4,102 @@ from gensim.models import Word2Vec
 import pandas as pd
 
 ##--------------------------------------------------------##
+stop_words =[ 'bị',
+'bởi',
+'cả',
+'các',
+'cái',
+'cần',
+'càng',
+'chỉ',
+'chiếc',
+'cho',
+'chứ',
+'chưa',
+'chuyện',
+'có',
+'có_thể',
+'cứ',
+'của',
+'cùng',
+'cũng',
+'đã',
+'đang',
+'đây',
+'để',
+'đến_nỗi',
+'đều',
+'điều',
+'do',
+'đó',
+'được',
+'dưới',
+'gì',
+'khi',
+'không',
+'là',
+'lại',
+'lên',
+'lúc',
+'mà',
+'mỗi',
+'một_cách',
+'này',
+'nên',
+'nếu',
+'ngay',
+'nhiều',
+'như',
+'nhưng',
+'những',
+'nơi',
+'nữa',
+'phải',
+'qua',
+'ra'
+'rằng',
+'rằng',
+'rất',
+'rất',
+'rồi',
+'sau',
+'sẽ',
+'so',
+'sự',
+'tại',
+'theo',
+'thì',
+'trên',
+'trước',
+'từ',
+'từng',
+'và',
+'vẫn',
+'vào',
+'vậy',
+'vì',
+'việc',
+'với',
+'vừa',
+'.',',',
+'/','\\','%','*','$','~','`','!','#','^','&','(',')','_','+','-','=',';',':','"',"'",'{','}','[',']'
+]
+
+def delete_stop_words(sentense, stop_word = stop_words):
+    for index,ele in enumerate(sentense):
+        if ele in stop_word:
+            del sentense[index]
 
 def get_tokenizer(link):
     '''
-        read the text and tokenizer its
+        read the text then tokenizer
     '''
     with open(link,'r',encoding='utf-8') as f:
         sentense = f.read()
+        sentense = sentense.lower()
         sentense = ViTokenizer.tokenize(sentense)
     temp = sentense.strip().split()
-    
+    delete_stop_words(temp)
     return temp
 
 def get_file_name_and_label(root_data):
@@ -63,6 +149,6 @@ def save_directory_embedding(pretrained, vocab):
    
    
 if __name__ == '__main__':
-    path = 'test_data'
+    path = 'train_data'
     vocab = training_word2vec(path)
     save_directory_embedding(pretrained='pretrain_data.bin',vocab = vocab)

@@ -22,3 +22,4 @@ class Model(nn.Module):
 
 if __name__ == '__main__':
     model = Model(100,20,2,2)
+    

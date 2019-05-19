@@ -1,36 +1,164 @@
+from model import Model
+from gensim.models import Word2Vec
+from pyvi import ViTokenizer
 import torch
-from torch import nn, optim
-from torch.autograd import Variable
+##----------------------------------------------##
+pretrained = 'pretrain_data.bin'
+path_max_lenght = 'max_lenght_of_sentenses.txt'
+stop_words =[ 'bị',
+'bởi',
+'cả',
+'các',
+'cái',
+'cần',
+'càng',
+'chỉ',
+'chiếc',
+'cho',
+'chứ',
+'chưa',
+'chuyện',
+'có',
+'có_thể',
+'cứ',
+'của',
+'cùng',
+'cũng',
+'đã',
+'đang',
+'đây',
+'để',
+'đến_nỗi',
+'đều',
+'điều',
+'do',
+'đó',
+'được',
+'dưới',
+'gì',
+'khi',
+'không',
+'là',
+'lại',
+'lên',
+'lúc',
+'mà',
+'mỗi',
+'một_cách',
+'này',
+'nên',
+'nếu',
+'ngay',
+'nhiều',
+'như',
+'nhưng',
+'những',
+'nơi',
+'nữa',
+'phải',
+'qua',
+'ra'
+'rằng',
+'rằng',
+'rất',
+'rất',
+'rồi',
+'sau',
+'sẽ',
+'so',
+'sự',
+'tại',
+'theo',
+'thì',
+'trên',
+'trước',
+'từ',
+'từng',
+'và',
+'vẫn',
+'vào',
+'vậy',
+'vì',
+'việc',
+'với',
+'vừa',
+'.',',',
+'/','\\','%','*','$','~','`','!','#','^','&','(',')','_','+','-','=',';',':','"',"'",'{','}','[',']'
+]
 
-# sequence_lenght = 3140
-# input_size = 100
-# batch_size = 1
-# number layers =  20
+def delete_stop_words(sentense, stop_word = stop_words):
+    for index,ele in enumerate(sentense):
+        if ele in stop_word:
+            del sentense[index]
+
+def get_max_lenght_sentenses(path = path_max_lenght):
+    '''
+        the max lenght of sentenses is stored in file
+    '''
+    with open(path,'r') as f:
+        return int(f.read())
 
 
-'''
-lstm = nn.LSTM(5,3,3)
-linear = nn.Linear(3,2)
-inputs = torch.rand(1,3,5)
+def get_tokenizer(link):
+    '''
+        read the text then tokenizer
+    '''
+    with open(link,'r',encoding='utf-8') as f:
+        sentense = f.read()
+        sentense = sentense.lower()
+        sentense = ViTokenizer.tokenize(sentense)
+    temp = sentense.strip().split()
+    delete_stop_words(temp)
+    return temp
 
-out, _ = lstm(inputs)
+def get_word_embedding(sentense,max_len):
+    temp = [i*0 for i in range(100)]
+    model = Word2Vec.load(pretrained)
+    X_data = []
+    lenSent = len(sentense)
+    if lenSent > max_len:
+        for i in range(max_len):
+            X_data.append(model.wv[sentense[i]])
+    else:
+        for i in range(max_len):
+            if i < lenSent:
+                X_data.append(model.wv[sentense[i]])
+            else:
+                X_data.append(temp)
+    return X_data
 
-last_out = out[-1][-1]
-print(last_out.size())
-mul = linear(last_out)
-print(mul)
 
+def convert_out_to_class(out):
+    '''
+        out is a pytorch tensor
+    '''
+    out = out.detach()[0].tolist()
+    out_max = max(out)
+    return out.index(out_max)
 
-inputs = torch.rand(1,2)
-print(inputs)
-x =  torch.Tensor([1]).type(torch.LongTensor)
-loss = nn.CrossEntropyLoss()
-l = loss(inputs,x)
-print(l)
-'''
+if __name__ == '__main__':
+    
+    input_size = 100
+    hidden_size = 40
+   
+    num_layer = 30
+    num_class = 5
+    filepath = 'pretrained'
+    path_sentense = 'test.txt'
+    max_len = get_max_lenght_sentenses()
+    sentense = get_tokenizer(path_sentense)
 
-a = [1,1,3]
+    embedding_sentense = get_word_embedding(sentense = sentense,max_len = max_len)
 
-a = torch.Tensor(a).type(torch.LongTensor)
-print(a.type())
+    model = Model(input_size = input_size, hidden_size = hidden_size, num_layer = num_layer,num_class=num_class)
 
+    model.load_state_dict(torch.load(filepath))
+
+    model.eval()
+
+    output = model.forward(embedding_sentense)
+
+    the_class = convert_out_to_class(output)
+    print(the_class)
+
+    pass

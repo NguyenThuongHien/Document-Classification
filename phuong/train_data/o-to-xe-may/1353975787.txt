@@ -1,0 +1,55 @@
+Được Ducati giới thiệu lần đầu tiên vào tháng 11/2005 tại triển lãm mô-tô Milan với hai phiển bản 1100 và 1100S, những chiếc Hypermotard đầu tiên xuất xưởng vào năm 2007 và ngay sau đó đã giật giải “Mẫu xe đẹp nhất triển lãm Milan”, được diễn viên Tom Cruise sử dụng trong bộ phim Knight and Day.
+Khái niệm về thể loại motard chỉ xuất hiện trong vài năm gần đây, là thể loại pha trộn giữa xe thể thao tốc độ với xe địa hình. Điều này thể hiện qua thiết kế bên ngoài của xe, với hình dáng "cào cào" nhưng lại dùng lốp của xe đua.
+Cảm nhận đầu tiên với dòng xe Hypermotard của Ducati là sự gọn gàng và bắt mắt. Bộ khung là các ống thép liên kết với nhau theo cấu trúc tam giác, giúp hấp thụ tốt lực và giảm trọng lượng xe. Đầu xe và chắn bùn trước liền nhau tạo liên tưởng đến con thú mỏ vịt. Màn hình hiển thị lớn ở chính giữa được điều khiển bởi một máy chủ còn có khả năng phân tích dữ liệu, ghi lại toàn bộ quá trình hoạt động của xe. Tay lái rộng, yên xe dài kết hợp với bình xăng thon gọn, giúp người lái điều khiển xe dễ dàng và ôm cua gần giống xe sport.
+Yên xe dài kéo từ bình xăng cho tới phần đuôi xe được thiết kế hai ống xả chụm lại, vắt từ dưới lên trên theo kiểu 2-1-2 và điểm kết thúc phía dưới đuôi, pát gắn biển số sau tích hợp luôn đèn xi nhan dạng LED. Nguyên bản của mẫu xe là như vậy, nhưng không tay chơi xe nào lại muốn tiếng pô yếu ớt, nên thường chi thêm gần 30 triệu đồng cho cây ống xả đơn Terminoni (hãng độ ống xả gần như chuyên cho Ducati) được lắp một bên vắt chéo từ dưới lên trên đi kèm với một thiết bị điện tử tinh chỉnh xăng gió giúp tăng thêm 6% sức mạnh thay cho cặp ống xả nguyên bản bố trí theo kiểu 2-1-2 dưới yên.
+Chữ "S" nằm sau 1100 để nói lên rằng mẫu xe này phải có gì khác, đó chính là bộ giảm xóc trước loại có hành trình ngược 48mm của Kayaba màu vàng thay cho phiên bản thường của Marzocchi, giảm xóc sau là loại monoshock Ohlin được sử dụng hầu hết cho các mẫu xe đua.
+Xe sử dụng khối động cơ Desmodromic L-Twin với dung tích 1.078cc nhưng được bố trí và thiết kế khá gọn gàng, hợp lý. Cùng với hệ thống phun xăng điện tử, hộp số ly hợp chỉnh tay 6 cấp (cho công suất cực đại 90 mã lực) và bộ ly hợp khô, xe Hypermotard 1100S còn được trang bị hệ thống phân tích dữ liệu Ducati Data Analyser (DDA), với một phần mềm đặc biệt cho phép phân tích cụ thể tốc độ lưu thông, tốc độ vòng tua động cơ, nhiệt độ động cơ để đưa ra các phương thức vận hành phù hợp.
+Thông số kỹ thuật
+Loại động cơ
+2 máy 4 thì
+Công suất tối đa
+90 mã lực @ 7.750 vòng/phút
+Momen xoắn cực đại
+103,05 Nm @ 10.500 vòng/phút
+Tỉ số nén
+10.5:1
+Hệ thống nhiên liệu
+Phun xăng điện tử
+Hệ thống làm mát
+Không khí
+Hộp số
+6 tốc độ
+Hệ thống ly hợp
+Khô + điều khiển thủy lực
+Hệ thống ống xả
+Kiểu 2-1-2
+Khung
+Trellis dạng ống thép
+Giảm xóc trước
+Giảm xóc ngược có thể điều chỉnh loại Kayaba 48mm
+Hành trình giảm xóc trước
+165 mm
+Giảm xóc sau
+Giảm xóc đơn loại Ohlins có thể điều chỉnh
+Hành trình giảm xóc sau
+141 mm
+Kích thước lốp trước
+120/70-ZR17
+Kích thước lốp sau
+180/55-ZR17
+Phanh trước
+Đĩa kép
+Đường kính phanh trước
+305 mm
+Phanh sau
+Đĩa đơn
+Đường kính phanh sau
+245 mm
+Trọng lượng tịnh
+177 kg
+Chiều cao yên xe
+845 mm
+Chiều dài cơ sở
+1.455 mm
+Dung tích bình nhiên liệu
+12,4 L

@@ -1,0 +1,24 @@
+Thu nhập tính thuế
+Thuế suất (%)
+1. Thu nhập từ đầu tư vốn
+5
+2. Thu nhập từ bản quyền, nhượng quyền thương mại
+5
+3. Thu nhập từ trúng thưởng
+10
+4. Thu nhập từ thừa kế, quà tặng
+10
+5. Thu nhập từ chuyển nhượng vốn
+20
+6. Thu nhập từ chuyển nhượng chứng khoán
+0,1
+7. Thu nhập từ chuyển nhượng bất động sản
+2
+Ngoài ra, kinh nghiệm quốc tế cho thấy, các nước đều không khống chế chi phí quảng cáo. Do vậy, Ủy ban Thường vụ Quốc hội (UBTVQH) đề nghị Chính phủ chỉ đạo các cơ quan chức năng tăng cường công tác quản lý chặt chẽ trong việc hạch toán chi phí quảng cáo, tránh việc lợi dụng cơ chế thông thoáng để gian lận, trốn thuế; rà soát lại các quy định tại Luật thương mại, Luật giá để có biện pháp quản lý chặt chẽ đối với các khoản chi hoa hồng, khuyến mại, nhất là các khoản chi hoa hồng trong lĩnh vực y tế, xuất bản và phát hành sách giáo khoa...
+Về bổ sung ưu đãi thuế thu nhập doanh nghiệp đối với các dự án đầu tư có quy mô vốn đầu tư tối thiểu 12.000 tỷ đồng, đa số ý kiến đề nghị ưu đãi đối với dự án 12.000 tỷ đồng phải đáp ứng tiêu chí công nghệ cao, công nghệ kỹ thuật của các nước phát triển. Một số ý kiến cho rằng, thời gian áp dụng thuế suất 10% trong 30 năm là quá dài. Có ý kiến đề nghị bỏ tiêu chí “dự án đặc biệt thu hút đầu tư”.
+Về thời gian ưu đãi kéo dài 30 năm, theo UBTVQH, đối với nhóm các dự án trên 12.000 tỷ đồng, trong trường hợp đặc biệt được ưu đãi đầu tư mới được kéo dài thêm 15 năm (tổng cộng sẽ là 30 năm). Mặt khác, đây là các dự án có quy mô vốn lớn, cần có thời gian dài để có thể thu hồi được vốn, thời hạn dài 30 năm là yếu tố quan trọng để thu hút đầu tư.
+Với quy định tính thuế thu nhập cá nhân (TNCN) đối với thu nhập từ trúng thưởng trong ca-si-nô, một số ý kiến không đồng tình việc bỏ thuế TNCN đối với thu nhập trúng thưởng trong ca-si-nô và đề nghị giữ như Luật hiện hành để đảm bảo bình đẳng giữa các loại thu nhập của cá nhân; một số ý kiến đề nghị vừa tăng thuế đối với người kinh doanh, đồng thời vừa thu thuế đối với người chơi.
+Theo giải trình của UBTVQH, thực tế quản lý thu trong thời gian qua cho thấy, việc xác định số tiền trúng thưởng ca-si-nô từng lần chơi không xác định được. Thông lệ quốc tế đều không thu thuế đối với cá nhân trúng thưởng trong ca-si-nô, nên việc bỏ quy định thu thuế TNCN đối với người chơi trúng thưởng trong ca-si-nô là hợp lý.
+Đồng thời, Luật sửa đổi, bổ sung một số điều của Luật thuế tiêu thụ đặc biệt đã trình Quốc hội xem xét, quyết định tăng thuế suất thuế tiêu thụ đặc biệt đối với người kinh doanh ca-si-nô từ 30% lên 35%.
+Đặc biệt, với thuế TNCN đối với hoạt động chuyển nhượng bất động sản và chuyển nhượng chứng khoán, một số ý kiến không nhất trí với Dự thảo luật quy định một phương pháp tính thuế trên từng lần chuyển nhượng bất động sản, chuyển nhượng chứng khoán và đề nghị giữ như quy định của Luật thuế TNCN hiện hành.
+UBTVQH cho hay, việc quy định hai phương pháp tính thuế như quy định của luật hiện hành, trên thực tế sẽ không bảo đảm minh bạch, rõ ràng trong tổ chức thực hiện, tạo sơ hở trong quản lý thuế. Do vậy, quy định cá nhân chuyển nhượng bất động sản nộp thuế 2% trên giá bán từng lần chuyển nhượng và cá nhân chuyển nhượng chứng khoán nộp thuế 0,1% trên giá bán chứng khoán từng lần chuyển nhượng như Dự thảo luật sẽ bảo đảm tính minh bạch, phù hợp với đối tượng nộp thuế và đơn giản hoá thủ tục hành chính, tạo thuận lợi cho người nộp thuế.

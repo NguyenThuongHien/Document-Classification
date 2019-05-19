@@ -1,0 +1,26 @@
+Sau khi kết nối chiếc điện thoại của mình với hệ thống giải trí trên Ford Fiesta mới và Focus thông qua kết nối bluetooth (xem hướng dẫn tại đây), hệ thống SYNC sẽ hỗ trợ các bạn nghe các bản nhạc yêu thích của mình từ chính trên chiếc điện thoại mà không tốn công chuyển đổi.
+Ngoài ra, một số câu lệnh đơn giản để ra lệnh cho hệ thống SYNC khi bạn đang nghe nhạc cũng được hỗ trợ như tua lại bài hát vừa nghe, chuyển bài ngẫu nhiên hoặc kiểm tra bài hát đang nghe…
+Lưu ý, các định dạng sau được hỗ trợ để có thể nghe trên Ford Fiesta mới và Focus: MP3, wav, wma, aac.
+Các câu lệnh có trong SYNC trên Focus và Fiesta mới:
+BLUETOOTH AUDIO
+Nhạc trực tuyến lưu trữ trong máy điện thoại được kết nối
+CALL
+Gọi cho ai đó trong danh bạ điện thoại đã tải về của bạn.
+HELP
+Nghe những câu lệnh mà bạn có thể sử dụng trong tình huống hiện tại
+LINE IN/AUDIO IN
+Nói câu lệnh này một lần khi bạn lựa chọn thiết bị cắm vào dây cáp nguồn ngoại vi. Nói lại để bắt đầu bật nhạc trong thiết bị đó.
+PHONE
+Cho phép bạn truy cập vào phần cài đặt điện thoại và sử dụng điện thoại đã được kết nối.
+PLAY
+Bật nhạc lưu trữ trong điện thoại ghép cặp
+PLAY ALL
+Bật tất cả bản nhạc theo thứ tự
+READ MESSAGE
+Nghe tin nhắn văn bản gửi đến gần đây nhất
+SEND TEXT MESSAGE
+Gửi một tin nhắn văn bản
+SYNC
+Dẫn tới menu chính
+USB
+Sử dụng USB đã được kết nối

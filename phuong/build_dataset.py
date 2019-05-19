@@ -6,10 +6,95 @@ import torch
 
 ##--------------------------------------------##
 numclass = 10
-root_path = 'test_data'
+root_path = 'train_data'
 path_max_lenght = 'max_lenght_of_sentenses.txt'
 pretrained = 'pretrain_data.bin'
 
+stop_words =[ 'bị',
+'bởi',
+'cả',
+'các',
+'cái',
+'cần',
+'càng',
+'chỉ',
+'chiếc',
+'cho',
+'chứ',
+'chưa',
+'chuyện',
+'có',
+'có_thể',
+'cứ',
+'của',
+'cùng',
+'cũng',
+'đã',
+'đang',
+'đây',
+'để',
+'đến_nỗi',
+'đều',
+'điều',
+'do',
+'đó',
+'được',
+'dưới',
+'gì',
+'khi',
+'không',
+'là',
+'lại',
+'lên',
+'lúc',
+'mà',
+'mỗi',
+'một_cách',
+'này',
+'nên',
+'nếu',
+'ngay',
+'nhiều',
+'như',
+'nhưng',
+'những',
+'nơi',
+'nữa',
+'phải',
+'qua',
+'ra'
+'rằng',
+'rằng',
+'rất',
+'rất',
+'rồi',
+'sau',
+'sẽ',
+'so',
+'sự',
+'tại',
+'theo',
+'thì',
+'trên',
+'trước',
+'từ',
+'từng',
+'và',
+'vẫn',
+'vào',
+'vậy',
+'vì',
+'việc',
+'với',
+'vừa',
+'.',',',
+'/','\\','%','*','$','~','`','!','#','^','&','(',')','_','+','-','=',';',':','"',"'",'{','}','[',']'
+]
+
+def delete_stop_words(sentense, stop_word = stop_words):
+    for index,ele in enumerate(sentense):
+        if ele in stop_word:
+            del sentense[index]
 
 def get_max_lenght_sentenses(path = path_max_lenght):
     '''
@@ -18,12 +103,18 @@ def get_max_lenght_sentenses(path = path_max_lenght):
     with open(path,'r') as f:
         return int(f.read())
 
-def get_sentense(path):
-    with open(path,'r',encoding='utf-8') as f:
+def get_tokenizer(link):
+    '''
+        read the text then tokenizer
+    '''
+    with open(link,'r',encoding='utf-8') as f:
         sentense = f.read()
+        sentense = sentense.lower()
         sentense = ViTokenizer.tokenize(sentense)
-    
-    return sentense.strip().split()
+    temp = sentense.strip().split()
+    delete_stop_words(temp)
+    return temp
+
 
 def get_word_embedding(sentense,max_len):
     temp = [i*0 for i in range(100)]
@@ -49,7 +140,7 @@ def get_embedding_and_label(root_path = root_path):
     for index, folder in enumerate(os.listdir(root_path)):
         for file in os.listdir(os.path.join(root_path,folder)):
             link = os.path.join(root_path,folder,file)
-            sentense = get_sentense(link)
+            sentense = get_tokenizer(link)
             sentense_embedding = get_word_embedding(sentense,max_len = max_len)
             x = torch.Tensor([sentense_embedding])
             y = torch.Tensor([index]).type(torch.LongTensor)
